@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #DFD3D3;
+    padding: 20px 5px 20px 5px;
+}
+
 html {
     scroll-behavior: smooth;
 }
