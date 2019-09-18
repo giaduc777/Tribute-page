@@ -1,0 +1,32 @@
+.end-link {
+    width: 95%;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    color: rgb(194, 184, 184);
+    
+
+    a {
+        color: rgb(73, 191, 238);
+    }
+
+    @mixin atMedium {
+        font-size: 1.25rem;
+
+        @mixin atMedium--height {
+            font-size: 1.3rem;
+        }
+    }
+
+    @mixin atLarge {
+        font-size: 1.48rem;
+    }
+
+    @mixin atLargest {
+        text-align: center;
+    }
+}

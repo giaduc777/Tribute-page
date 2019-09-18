@@ -1,0 +1,28 @@
+.tribute-info {
+    width: 95%;
+    margin-right:auto;
+    margin-left:auto;
+    text-align: justify;
+    
+    padding-bottom: 30px;
+    padding-left: 4px;
+    padding-right: 4px;
+    line-height: 23px;
+    font-size: 1.1rem;
+    color: rgb(194, 184, 184);
+
+    @mixin atMedium {
+        font-size: 1.3rem;
+        line-height: 25px;
+        
+        @mixin atMedium {
+            font-size: 1.5rem;
+            line-height: 29px;
+        }
+    }
+
+    @mixin atLarge {
+        font-size: 1.7rem;
+        line-height: 34px;
+    }
+}
