@@ -1,47 +1,10 @@
 .footer {
     width: 100%;
-    height: 15%;
-    background-color: black;
-    
-    p {
-        text-align: center;
-        color: white;
-        font-size: .8rem;
-        padding-bottom: 5px;
+    height: 10%;
+    background-color: brown;
 
-        @mixin atMedium {
-           font-size: 1rem;
-         }
-    }
-
-    &__grid {
+    &__ul {
         display: flex;
-        justify-content: space-around;
-        font-size: 2.5rem;
-        list-style: none;
-        padding-top: 10px;
-        padding-bottom: 10px;
-
-        @mixin atMedium {
-           font-size: 3.5rem;
-        }
-
-        @mixin atLarge {
-            font-size: 4.2rem;
-        }
-
-        @mixin atLarger {
-            justify-content: flex-end;
-            padding-right: 35px;
-        }
-        
-        a {
-           color: white;
-
-           @mixin atLarger {
-            
-            padding-left: 35px;
-           }
-        }
     }
+    
 }
