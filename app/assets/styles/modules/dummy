@@ -1,0 +1,220 @@
+.footer {
+    width: 100%;
+   
+    background-color: black;
+    
+    p {
+        text-align: center;
+       
+        color: white;
+        font-size: .8rem;
+
+       
+       
+    }
+
+    &__grid {
+        display: flex;
+        justify-content: space-around;
+        font-size: 2.5rem;
+        list-style: none;
+       
+    
+       
+    
+       
+       
+        
+        a {
+            color: white;
+        }
+    }
+}
+
+///////////////////////////////
+.main {
+    width: 100%;
+    height: 85%;
+
+    &__title {
+        text-align: center;
+        color: rgb(207, 197, 197);
+    
+        h1 {
+            font-size: 3rem;
+           
+        }
+    
+        h3 {
+          
+            font-size: 1.5rem; 
+        }
+    }
+
+    &__image-container {
+  
+    
+
+        &__size {
+            width: 100%;
+        }
+    
+        &__caption {
+            width: 100%;
+            text-align: justify;
+            font-weight: 800;
+            background-color: rgb(153, 147, 147);
+           
+            color: rgb(49, 47, 47);
+    
+           
+        }
+    }
+
+    &__tribute-info {
+   
+        margin-right:auto;
+        margin-left:auto;
+        text-align: justify;
+        
+       
+        padding-left: 4px;
+        padding-right: 4px;
+        line-height: 23px;
+        font-size: 1.1rem;
+        color: rgb(194, 184, 184);
+    
+        
+        
+    }
+
+    &__end-link {
+   
+        text-align: justify;
+        font-size: 1.2rem;
+        font-weight: bold;
+     
+        
+        color: rgb(194, 184, 184);
+        
+    
+        a {
+            color: rgb(73, 191, 238);
+        }
+    
+        
+    
+       
+    }
+
+
+}
+
+
+///////////////////////////////////////////
+
+
+<main class="main">
+        <div class="main__title">
+          <h1>Golden Retriever</h1>
+          <h3>The service dog of America<h3>
+        </div>
+      
+
+     
+        <div class="main__image-container">
+          <img class="image-container__size"  src="https://github.com/giaduc777/Tribute-page/blob/master/app/assets/images/polo.jpg?raw=true" alt="Golden Retriever">
+          <div class="image-container__caption">Polo ( The Golden Retriever ) had just finish a long water fowl trainning session at the lake.
+               He is now relaxing, and enjoying his great rewards. Which is a plastic duck decoy.</div>
+        </div>
+     
+
+      
+        <p class="main__tribute-info">
+          This page is dedicated to the Golden Retriever. They  are a great family companion, a best friend, 
+          and one of America best services dog. Their original purpose was to serve hunter in the field, 
+          where they would help search and retrieve fallen birds. Their charming, intelligent, 
+          and loyal personality have found their way from the hunting field to serving humans as services dog. 
+          With their many talents and the eagerness to learn and please their master. They can be trained as a guide 
+          dog to help the blind and people with disabilities, a narcotic & bomb-sniffing dog, & therapy dog where they 
+          visit hospital and nursing home to comfort many patients with warm hug & companionship. Hopefully, 
+          we all can understand & appreciate the Golden Retriever & the wonderful services they have provided us.
+      </p>
+
+      <div class="main__end-link">
+        Please click on this <a id="tribute-link" href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">Wiki_link </a> for additional information about the Golden Retriever...
+      </div>
+    </main>
+
+      <footer class="footer">
+        <ul class="footer__grid">
+            <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+            <li><a href="#"><i class="fab fa-snapchat-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+        </ul>
+        <p>Copyright 2019, Duc Le Company Inc.</p>
+      </footer>
+
+
+
+
+
+      //////////////////////////////////////////////////////
+
+       <main class="main">
+          <div class="main__title">
+              <h1>Golden Retriever</h1>
+              <h3>The service dog of America<h3>
+            </div>
+
+            <div class="main__image">
+                <div><img class="main__image__size"  src="https://github.com/giaduc777/Tribute-page/blob/master/app/assets/images/polo.jpg?raw=true" alt="Golden Retriever"></div>
+                <div class="main__image__caption">Polo ( The Golden Retriever ) had just finish a long water fowl trainning session at the lake.
+                     He is now relaxing, and enjoying his great rewards. Which is a plastic duck decoy.</div>
+            </div>
+
+
+            <div>
+                <p class="main__tribute-info">
+                    This page is dedicated to the Golden Retriever. They  are a great family companion, a best friend, 
+                    and one of America best services dog. Their original purpose was to serve hunter in the field, 
+                    where they would help search and retrieve fallen birds. Their charming, intelligent, 
+                    and loyal personality have found their way from the hunting field to serving humans as services dog. 
+                    With their many talents and the eagerness to learn and please their master. They can be trained as a guide 
+                    dog to help the blind and people with disabilities, a narcotic & bomb-sniffing dog, & therapy dog where they 
+                    visit hospital and nursing home to comfort many patients with warm hug & companionship. Hopefully, 
+                    we all can understand & appreciate the Golden Retriever & the wonderful services they have provided us.
+                </p>
+            </div>
+              
+
+
+              <div class="main__end-link">
+                  Please click on this <a id="tribute-link" href="https://en.wikipedia.org/wiki/Golden_Retriever" target="_blank">Wiki_link </a> for additional information about the Golden Retriever...
+                </div>
+           
+          
+      </main>
+
+
+
+      <footer class="footer">
+          <ul class="footer__grid">
+              <li><a href="#"><i class="fab fa-twitter-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-messenger"></i></a></li>
+              <li><a href="#"><i class="fab fa-snapchat-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-pinterest-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+          </ul>
+          <p>Copyright 2019, Duc Le Company Inc.</p>
+      </footer>
+      
+      
+      //////
+
+
+       background-color: rgb(64, 80, 57);

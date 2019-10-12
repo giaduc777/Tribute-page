@@ -1,11 +1,7 @@
 @import "normalize.css";
 @import "base/_global";
 @import "base/_mixins";
-@import "base/_variables";
 
-@import "modules/_title";
-@import "modules/_image-container";
-@import "modules/_end-link";
-@import "modules/_tribute-info";
-@import "modules/_footer-nav";
-@import "modules/_footer-nav-grid";
+
+@import "modules/_main.css";
+@import "modules/_footer.css";
