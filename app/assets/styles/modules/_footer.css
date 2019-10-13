@@ -1,10 +1,53 @@
 .footer {
     width: 100%;
     height: 10%;
-    background-color: brown;
+    background-color: black;
 
     &__ul {
         display: flex;
+        justify-content: space-around;
+        margin-top: 8px;
+        margin-bottom: 5px;
+
+        @mixin atLarge {
+            justify-content: flex-end;
+        }
+
+        li {
+
+            list-style: none;
+
+            @mixin atLarge {
+                padding-right: 25px;
+            }
+
+            a {
+                color: white;
+                font-size: 2.5rem;
+
+                @mixin atMedium {
+                    font-size: 2.9rem;
+                }
+
+                @mixin atLarge {
+                    font-size: 3.6rem;
+                }
+            }
+        }
     }
-    
+
+    p {
+        color:white;
+        font-size: .7rem;
+        text-align: center;
+        padding-bottom: 5px;
+
+        @mixin atMedium {
+            font-size: 1rem;
+        }
+
+        @mixin atLarge {
+            font-size: 1.2rem;
+        }
+    }
 }
